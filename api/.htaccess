@@ -1,0 +1,13 @@
+RewriteEngine On # Turn on the rewriting engine
+RewriteRule ^category/?$ category.php [NC,L]
+RewriteRule ^category/([0-9]+)/?$ category.php?id=$1 [NC,L]
+RewriteRule ^customer/?$ customer.php [NC,L]
+RewriteRule ^customer/([0-9]+)/?$ customer.php?id=$1 [NC,L]
+RewriteRule ^supplier/?$ supplier.php [NC,L]
+RewriteRule ^supplier/([0-9]+)/?$ supplier.php?id=$1 [NC,L]
+RewriteRule ^product/?$ product.php [NC,L]
+RewriteRule ^product/([0-9]+)/?$ product.php?id=$1 [NC,L]
+RewriteRule ^order/?$ order.php [NC,L]
+RewriteRule ^order/([0-9]+)/?$ order.php?id=$1 [NC,L]
+RewriteRule ^orderdetail/?$ orderdetail.php [NC,L]
+RewriteRule ^orderdetail/([0-9]+)/?$ orderdetail.php?id=$1 [NC,L]
